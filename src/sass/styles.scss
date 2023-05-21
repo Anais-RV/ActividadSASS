@@ -1,23 +1,15 @@
+@use 'sections';
+@import 'variables';
+
 body{
-    background-color: burlywood;
+    background-color: $backgroundColor;
 
     header{
-        color: crimson;
+        color: $titleColor;
         width: 100%;
         h1{
             font-style: italic;
             text-align: center;
         }
     }
-
-    main{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        color: darkorchid;
-        #section-two{
-            color: green;
-        }
-    }
-
 }
