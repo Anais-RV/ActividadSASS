@@ -8,6 +8,30 @@ main #section-two {
   color: green;
 }
 
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+footer .caja {
+  background-color: violet;
+  border-radius: 20px;
+  height: 120px;
+  width: 120px;
+}
+footer .caja2 {
+  background-color: aqua;
+  border-radius: 30px;
+  height: 120px;
+  width: 120px;
+}
+footer .caja3 {
+  background-color: pink;
+  border-radius: 26px;
+  height: 120px;
+  width: 120px;
+}
+
 body {
   background-color: burlywood;
 }

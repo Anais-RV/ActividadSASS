@@ -1,0 +1,18 @@
+@import 'variables';
+
+footer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+    .caja {
+        @include box(violet, 20px);
+    }
+    .caja2 {
+        @include box(aqua, 30px);
+    }
+    .caja3 {
+        @include box(pink, 26px);
+    }
+    }

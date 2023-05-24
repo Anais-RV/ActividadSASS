@@ -3,3 +3,9 @@ $titleColor: crimson;
 $TextColorOne: darkorchid;
 $TextColortwo: green;
 
+@mixin box($A, $B) {
+    background-color:$A ;
+    border-radius: $B;
+    height: 120px;
+    width: 120px;
+}
